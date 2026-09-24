@@ -1,0 +1,39 @@
+name: Publish offset JSON
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - offsets
+      - scripts/**
+      - .github/workflows/publish-offsets.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-offsets
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+      - name: Test converter
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Convert header
+        run: python3 scripts/convert_offsets.py offsets offsets.json
+      - name: Publish generated JSON
+        run: |
+          git add -- offsets.json
+          if git diff --cached --quiet; then
+            echo 'JSON is already current.'
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update generated offset JSON'
+          git push origin HEAD:main
