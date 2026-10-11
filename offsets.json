@@ -4,11 +4,22 @@
       "AirDensity": 24,
       "GlobalWind": 60
     },
+    "AnimationTrack": {
+      "Animation": 168,
+      "Animator": 256,
+      "IsPlaying": 2632,
+      "Looped": 212,
+      "Speed": 196,
+      "TimePosition": 200
+    },
+    "Animator": {
+      "ActiveAnimations": 2688
+    },
     "Atmosphere": {
       "Color": 168,
       "Decay": 180,
       "Density": 192,
-      "Glare": 184,
+      "Glare": 196,
       "Haze": 200,
       "Offset": 204
     },
@@ -36,10 +47,10 @@
       "LightInfluence": 384,
       "Texture": 304,
       "TextureLength": 396,
-      "TextureSpeed": 372,
+      "TextureSpeed": 404,
       "Width0": 408,
       "Width1": 412,
-      "ZOffset": 412
+      "ZOffset": 416
     },
     "BloomEffect": {
       "Enabled": 160,
@@ -48,7 +59,12 @@
       "Threshold": 176
     },
     "BlurEffect": {
+      "Enabled": 160,
       "Size": 168
+    },
+    "ByteCode": {
+      "Pointer": 16,
+      "Size": 40
     },
     "CachedItem": {
       "FileMeshData": 64
@@ -56,11 +72,14 @@
     "Camera": {
       "CFrame": 200,
       "CameraSubject": 184,
+      "CameraType": 296,
       "FieldOfView": 304,
+      "ImagePlaneDepth": 724,
       "Position": 236,
       "Rotation": 200,
-      "ViewportInt16": 636,
-      "ViewportSize": 700
+      "Viewport": 652,
+      "ViewportInt16": 652,
+      "ViewportSize": 716
     },
     "CharacterMesh": {
       "BaseTextureId": 184,
@@ -77,7 +96,8 @@
     },
     "ClickDetector": {
       "CursorIcon": 184,
-      "MaxActivationDistance": 216
+      "MaxActivationDistance": 216,
+      "MouseIcon": 184
     },
     "Clothing": {
       "Color3": 272,
@@ -86,14 +106,16 @@
     "ColorCorrectionEffect": {
       "Brightness": 180,
       "Contrast": 184,
+      "Enabled": 160,
       "TintColor": 168
     },
     "ColorGradingEffect": {
-      "TonemapperPreset": 13
+      "Enabled": 160,
+      "TonemapperPreset": 168
     },
     "Creator": {
-      "MapEnd": 140438248,
-      "MapStart": 140438240
+      "MapEnd": 138275840,
+      "MapStart": 138275832
     },
     "DataModel": {
       "CreatorId": 376,
@@ -101,10 +123,17 @@
       "GameLoaded": 1488,
       "JobId": 272,
       "PlaceId": 392,
+      "PlaceVersion": 420,
+      "PrimitiveCount": 1048,
+      "ScriptContext": 1088,
       "ServerIP": 1464,
+      "ToRenderView1": 448,
+      "ToRenderView2": 8,
+      "ToRenderView3": 40,
       "Workspace": 336
     },
     "DepthOfFieldEffect": {
+      "Enabled": 160,
       "FarIntensity": 168,
       "FocusDistance": 172,
       "InFocusRadius": 176,
@@ -113,10 +142,23 @@
     "Descriptor": {
       "Name": 8
     },
+    "DeviceContextD3D11": {
+      "DrawRecordSlot": 27,
+      "DrawSlot": 28
+    },
+    "DeviceD3D11": {
+      "Context": 384,
+      "ContextObj": 432,
+      "ContextPtr": 384,
+      "DevicePtr": 376,
+      "SwapChainPtr": 128,
+      "VTableRva": 114308248
+    },
     "DeviceD3D11Gfx": {
-      "VTableRva": 114231728
+      "VTableRva": 114308248
     },
     "DragDetector": {
+      "ActivatedCursorIcon": 432,
       "CursorIcon": 184,
       "MaxActivationDistance": 216,
       "MaxDragAngle": 664,
@@ -125,24 +167,77 @@
       "MaxTorque": 672,
       "MinDragAngle": 676,
       "MinDragTranslation": 616,
-      "ReferenceInstance": 104,
+      "ReferenceInstance": 480,
       "Responsiveness": 688
     },
+    "FFlag": {
+      "RenderFastClusterOcclusionCulling4": 141114704
+    },
     "FakeDataModel": {
-      "Pointer": 146098560,
+      "Pointer": 146603344,
       "RealDataModel": 504
     },
     "FastCluster": {
-      "VTableRva": 114670672,
-      "VTableRvaSub": 114670704
+      "BindingSubobject": 144,
+      "DecalMaterialPtr": 72,
+      "EntityAlphaByte": 20,
+      "EntityBBoxMax": 164,
+      "EntityBBoxMin": 152,
+      "EntityBegin": 72,
+      "EntityEnd": 80,
+      "EntityVTableRva": 114756840,
+      "MaterialColor": 36,
+      "MaterialCullMode": 16,
+      "MaterialFillMode": 17,
+      "MaterialFlags": 32,
+      "MaterialMatFlags": 24,
+      "MaterialParam": 28,
+      "MaterialPtr": 32,
+      "MaterialStride": 136,
+      "MeshEntityVTableRva": 114756912,
+      "PartRecordStride": 24,
+      "PartRecords": 312,
+      "PartRecordsEnd": 320,
+      "RenderQueueId": 16,
+      "TechniqueArrayPtr": 112,
+      "TechniqueEnd": 8,
+      "TechniqueStride": 136,
+      "TransformsView": 408,
+      "VTableRva": 114752648,
+      "VTableRvaSub": 114752344
     },
     "FastClusterBinding": {
-      "VTableRva": 114675040
+      "Owner": 96,
+      "Part": 16,
+      "Primitive": 8,
+      "VTableRva": 114756632
     },
     "FastClusterEntity": {
-      "VTableRva": 114675256
+      "AlphaByte": 20,
+      "BBoxMaxX": 164,
+      "BBoxMaxY": 168,
+      "BBoxMaxZ": 172,
+      "BBoxMinX": 152,
+      "BBoxMinY": 156,
+      "BBoxMinZ": 160,
+      "Cluster": 8,
+      "ContextPtr": 8,
+      "DecalMaterialPtr": 72,
+      "DrawMethodSlot": 2,
+      "MaterialPtr": 32,
+      "MeshVTableRva": 114756912,
+      "NextEntity": 40,
+      "PrimitiveIndexArrayPtr": 128,
+      "PrimitivePtr": 8,
+      "RenderQueueId": 16,
+      "Stride": 40,
+      "TechniqueArrayPtr": 112,
+      "VTableRva": 114756840,
+      "VertexBuffer": 80
     },
     "FileMeshData": {
+      "AABBMax": 396,
+      "AABBMin": 384,
       "AabbMax": 396,
       "AabbMin": 384,
       "Faces": 48,
@@ -151,7 +246,10 @@
       "VerticesEnd": 8
     },
     "Fire": {
-      "FireProximityPrompt": 51978352
+      "Enabled": 208,
+      "FireProximityPrompt": 51289488,
+      "Heat": 200,
+      "Size": 204
     },
     "FunctionDescriptor": {
       "Function": 128
@@ -171,34 +269,39 @@
       "Shapecast": 14716528
     },
     "GeometryD3D11": {
-      "VTableRva": 114233632
+      "VTableRva": 114309520
     },
     "GuiBase2D": {
-      "AbsolutePosition": 216,
+      "AbsolutePosition": 252,
       "AbsoluteRotation": 216,
-      "AbsoluteSize": 228
+      "AbsoluteSize": 260
     },
     "GuiObject": {
-      "Active": 13,
-      "AnchorPoint": 28,
-      "AutomaticSize": 6,
+      "Active": 1432,
+      "AnchorPoint": 1352,
+      "AutomaticSize": 1360,
       "BackgroundColor3": 1328,
-      "BackgroundTransparency": 1364,
+      "BackgroundTransparency": 1340,
       "BorderColor3": 1340,
-      "BorderMode": 6,
+      "BorderMode": 1368,
       "BorderSizePixel": 1372,
-      "ClipsDescendants": 6,
-      "GuiState": 6,
-      "Interactable": 13,
+      "ClipsDescendants": 1433,
+      "GuiState": 1384,
+      "Image": 2472,
+      "Interactable": 1435,
       "LayoutOrder": 1388,
-      "Position": 4,
+      "Position": 1280,
+      "RichText": 2976,
       "Rotation": 1412,
-      "Selectable": 13,
-      "SelectionOrder": 32,
-      "Size": 4,
-      "SizeConstraint": 6,
-      "Visible": 13,
-      "ZIndex": 1388
+      "ScreenGui_Enabled": 1204,
+      "Selectable": 1436,
+      "SelectionOrder": 1416,
+      "Size": 1312,
+      "SizeConstraint": 1424,
+      "Text": 3592,
+      "TextColor3": 3768,
+      "Visible": 1437,
+      "ZIndex": 1428
     },
     "Highlight": {
       "Adornee": 168,
@@ -213,40 +316,53 @@
       "BinType": 1112
     },
     "Humanoid": {
-      "AutoJumpEnabled": 13,
-      "AutoRotate": 13,
-      "AutomaticScalingEnabled": 13,
-      "BreakJointsOnDeath": 13,
-      "CameraOffset": 28,
-      "DisplayDistanceType": 6,
+      "AutoJumpEnabled": 452,
+      "AutoRotate": 453,
+      "AutomaticScalingEnabled": 454,
+      "BreakJointsOnDeath": 455,
+      "CameraOffset": 280,
+      "DisplayDistanceType": 368,
       "DisplayName": 168,
-      "EvaluateStateMachine": 13,
+      "EvaluateStateMachine": 456,
+      "FloorMaterial": 372,
       "Health": 384,
       "HealthDisplayDistance": 376,
-      "HealthDisplayType": 6,
+      "HealthDisplayType": 380,
       "HipHeight": 388,
+      "HumanoidRootPart": 1120,
+      "HumanoidState": 2216,
+      "HumanoidStateID": 32,
+      "IsWalking": 2599,
+      "Jump": 458,
       "JumpHeight": 400,
       "JumpPower": 404,
-      "MaxHealth": 384,
+      "MaxHealth": 408,
       "MaxSlopeAngle": 412,
-      "NameDisplayDistance": 376,
+      "MoveDirection": 304,
+      "MoveToPart": 264,
+      "MoveToPoint": 340,
+      "NameDisplayDistance": 416,
       "NameOcclusion": 420,
       "PlatformStand": 460,
-      "RequiresNeck": 13,
+      "PlatformStatePointer": 1522073804,
+      "RequiresNeck": 461,
       "RigType": 432,
       "SeatPart": 248,
-      "Sit": 6,
-      "TargetPoint": 28,
-      "UseJumpPower": 13,
+      "Sit": 461,
+      "TargetPoint": 316,
+      "UseJumpPower": 464,
       "WalkSpeed": 448,
       "WalkSpeedCheck": 924,
-      "WalkToPoint": 28
+      "WalkTimer": 1000,
+      "WalkToPoint": 28,
+      "Walkspeed": 448,
+      "WalkspeedCheck": 924
     },
     "ICreator": {
       "Create": 0
     },
     "InputObject": {
-      "MousePosition": 92
+      "MousePosition": 88
     },
     "Instance": {
       "ChildrenEnd": 8,
@@ -254,9 +370,17 @@
       "ChildrenStride": 16,
       "ClassBase": 432,
       "ClassDescriptor": 24,
+      "ClassName": 8,
       "Name": 8,
       "NameContainer": 112,
-      "Parent": 104
+      "Parent": 104,
+      "This": 8
+    },
+    "InstancedBinding": {
+      "Entity": 112,
+      "Part": 16,
+      "SpecialMeshVTableRva": 114747608,
+      "VTableRva": 114747304
     },
     "InstancedBinding2": {
       "Cluster": 104
@@ -264,22 +388,50 @@
     "InstancedCluster2": {
       "VTableRva": 114666672
     },
+    "InstancedEntity": {
+      "Bindings": 304,
+      "BindingsEnd": 312,
+      "InstanceData": 328,
+      "InstanceDataEnd": 336,
+      "InstanceStride": 112,
+      "MeshResource": 152,
+      "VTableRva": 114748248
+    },
+    "IntValue": {
+      "Value": 168
+    },
+    "LRUHolder": {
+      "MemEnforcedLRUCache": 32
+    },
+    "LRUNode": {
+      "AssetID": 16,
+      "CachedItem": 64
+    },
     "Lighting": {
       "Ambient": 192,
       "Atmosphere": 456,
       "Brightness": 264,
       "ClockTime": 184,
-      "ColorShift_Bottom": 204,
-      "ColorShift_Top": 216,
+      "ColorShift_Bottom": 216,
+      "ColorShift_Top": 204,
       "EnvironmentDiffuseScale": 268,
       "EnvironmentSpecularScale": 272,
       "ExposureCompensation": 276,
       "FogColor": 228,
       "FogEnd": 284,
       "FogStart": 288,
+      "GeographicLatitude": 292,
+      "GlobalShadows": 308,
+      "GradientBottom": 384,
+      "GradientTop": 320,
+      "LightColor": 332,
+      "LightDirection": 344,
+      "MoonPosition": 372,
       "OutdoorAmbient": 240,
       "ShadowSoftness": 232,
-      "Sky": 440
+      "Sky": 440,
+      "Source": 356,
+      "SunPosition": 360
     },
     "LightingParameters": {
       "GeographicLatitude": 292,
@@ -292,7 +444,9 @@
       "TrueSunPosition": 360
     },
     "LocalScript": {
-      "GUID": 192
+      "ByteCode": 384,
+      "GUID": 192,
+      "Hash": 400
     },
     "LruHolder": {
       "MemEnforcedLRUCache": 32
@@ -329,6 +483,7 @@
       "Head": 8
     },
     "MeshContentProvider": {
+      "LRUHolder": 200,
       "LruHolder": 200
     },
     "MeshData": {
@@ -339,45 +494,90 @@
     },
     "MeshPart": {
       "MeshId": 768,
+      "Texture": 816,
       "TextureId": 816
+    },
+    "MeshResource": {
+      "RangeStride": 40,
+      "Ranges": 208
+    },
+    "Misc": {
+      "Adornee": 224,
+      "AnimationId": 176,
+      "StringLength": 16,
+      "Value": 168
     },
     "Model": {
       "PrimaryPart": 584,
       "Scale": 308
     },
     "ModuleScript": {
+      "ByteCode": 296,
       "GUID": 192,
+      "Hash": 848,
+      "IsCoreScript": 344,
       "IsRobloxScript": 344
     },
+    "Mouse": {
+      "HitGetImpl": 152,
+      "HitGetter": 8,
+      "MouseProp": 160,
+      "PropertyCount": 72,
+      "PropertyList": 64,
+      "PropertyName": 8
+    },
     "MouseService": {
-      "InputObject": 240
+      "InputObject": 224,
+      "InputObject2": 240,
+      "MousePosition": 196
+    },
+    "NumberValue": {
+      "Value": 168
     },
     "ParticleEmitter": {
+      "Acceleration": 464,
       "Brightness": 524,
       "Drag": 528,
+      "Enabled": 600,
       "Lifetime": 484,
       "LightEmission": 552,
       "LightInfluence": 556,
       "Rate": 568,
       "RotSpeed": 492,
       "Rotation": 500,
+      "Size": 168,
       "Speed": 508,
       "SpreadAngle": 516,
+      "Squash": 232,
       "Texture": 432,
       "TimeScale": 588,
+      "Transparency": 296,
       "VelocityInheritance": 592,
       "ZOffset": 596
     },
     "Player": {
       "AccountAge": 844,
+      "CameraMode": 864,
       "Character": 648,
       "DisplayName": 296,
       "HealthDisplayDistance": 900,
-      "LocaleId": 1864,
+      "LocalPlayer": 288,
+      "LocaleId": 264,
+      "MaxZoomDistance": 856,
+      "MinZoomDistance": 860,
+      "ModelInstance": 648,
+      "Mouse": 4616,
       "NameDisplayDistance": 916,
       "Team": 712,
       "TeamColor": 928,
       "UserId": 192
+    },
+    "PlayerConfigurer": {
+      "Pointer": 145493936
+    },
+    "PlayerMouse": {
+      "Icon": 184,
+      "Workspace": 320
     },
     "Players": {
       "LocalPlayer": 288
@@ -386,13 +586,17 @@
       "AssemblyAngularVelocity": 236,
       "AssemblyLinearVelocity": 224,
       "CFrame": 176,
+      "Flags": 438,
+      "Geometry": 520,
       "Material": 582,
       "Orientation": 176,
+      "Owner": 528,
       "Part": 528,
       "Position": 212,
       "PrimitiveFlags": 438,
       "Rotation": 176,
-      "Size": 444
+      "Size": 444,
+      "Validate": 6
     },
     "PrimitiveFlags": {
       "Anchored": 2,
@@ -407,16 +611,21 @@
     "ProximityPrompt": {
       "ActionText": 160,
       "Enabled": 294,
-      "GamepadKeyCode": 276,
+      "GamepadKeyCode": 268,
       "HoldDuration": 272,
+      "KeyCode": 276,
       "KeyboardKeyCode": 276,
       "MaxActivationDistance": 280,
       "ObjectText": 192,
-      "RequiresLineOfSight": 294
+      "RequiresLineOfSight": 295
+    },
+    "Raycast": {
+      "RaycastBoundDesc": 137776048,
+      "RaycastBoundFn": 144
     },
     "Reflection": {
-      "CreatorTable": 140438240,
-      "NameRegistry": 136497600
+      "CreatorTable": 138275832,
+      "NameRegistry": 136819216
     },
     "ReflectionType": {
       "AdReward": 96,
@@ -522,22 +731,39 @@
       "Vector3int16": 14,
       "WebViewParams": 100
     },
+    "RenderJob": {
+      "FakeDataModel": 56,
+      "RealDataModel": 496,
+      "RenderView": 480
+    },
     "RenderView": {
       "DeviceD3D11": 8,
-      "LightingValid": 632,
+      "LightingValid": 0,
+      "SkyValid": 0,
       "VisualEngine": 24
     },
     "RobloxString": {
       "Size": 16,
       "SsoCapacity": 15
     },
+    "RunService": {
+      "HeartbeatFPS": 200,
+      "HeartbeatTask": 224
+    },
+    "Script": {
+      "ByteCode": 384,
+      "GUID": 192,
+      "Hash": 400
+    },
     "ScriptContext": {
-      "RequireBypass": 2768
+      "RequireBypass": 0
     },
     "Seat": {
       "Occupant": 520
     },
     "Sky": {
+      "CelestialBodiesShown": 576,
+      "DrawAdv": 57965504,
       "MoonAngularSize": 564,
       "MoonTextureId": 184,
       "SkyboxBk": 232,
@@ -551,10 +777,17 @@
       "SunAngularSize": 572,
       "SunTextureId": 520
     },
+    "Smoke": {
+      "Enabled": 200,
+      "Opacity": 184,
+      "RiseVelocity": 188,
+      "Size": 192
+    },
     "SmoothClusterNode": {
-      "VTableRva": 114674584
+      "VTableRva": 114756248
     },
     "Sound": {
+      "IsPlaying": 304,
       "Looped": 301,
       "PlaybackSpeed": 268,
       "RollOffMaxDistance": 272,
@@ -564,9 +797,9 @@
       "Volume": 288
     },
     "SpawnLocation": {
-      "AllowTeamChangeOnTouch": 125,
+      "AllowTeamChangeOnTouch": 480,
       "Duration": 472,
-      "Enabled": 125,
+      "Enabled": 481,
       "ForcefieldDuration": 472,
       "Neutral": 482,
       "TeamColor": 476
@@ -577,24 +810,35 @@
       "Scale": 180,
       "TextureId": 280
     },
+    "StatsItem": {
+      "Value": 160
+    },
     "SunRaysEffect": {
+      "Enabled": 160,
       "Intensity": 168,
       "Spread": 172
     },
     "SurfaceAppearance": {
-      "AlphaMode": 13,
+      "AlphaMode": 480,
       "Color": 456,
       "ColorMap": 184,
+      "EmissiveMaskContent": 232,
+      "EmissiveStrength": 484,
+      "EmissiveTint": 468,
       "MetalnessMap": 280,
       "NormalMap": 328,
       "RoughnessMap": 376
     },
     "TaskScheduler": {
+      "JobEnd": 208,
+      "JobName": 24,
+      "JobStart": 200,
       "MaxFPS": 176,
       "MaxFps": 176,
-      "Pointer": 145748640
+      "Pointer": 146247976
     },
     "Team": {
+      "BrickColor": 168,
       "TeamColor": 168
     },
     "TechniqueArray": {
@@ -602,55 +846,54 @@
       "EndOffset": 8
     },
     "Terrain": {
+      "GrassLength": 480,
       "MaterialColors": 1192,
       "WaterColor": 464,
       "WaterReflectance": 488,
-      "WaterTransparency": 468,
+      "WaterTransparency": 492,
       "WaterWaveSize": 496,
       "WaterWaveSpeed": 500
     },
     "TextButton": {
-      "AutoButtonColor": 2508,
-      "ContentText": 4208,
-      "Font": 268,
-      "LineHeight": 224,
-      "LocalizedText": 4208,
-      "MaxVisibleGraphemes": 168,
-      "Modal": 157,
-      "RichText": 6,
-      "Selected": 2510,
-      "Text": 4208,
-      "TextColor3": 3980,
-      "TextDirection": 6,
-      "TextScaled": 6,
-      "TextSize": 4420,
-      "TextStrokeColor3": 28,
-      "TextStrokeTransparency": 224,
-      "TextTransparency": 32,
-      "TextTruncate": 6,
-      "TextWrapped": 6,
-      "TextXAlignment": 3940,
-      "TextYAlignment": 13
+      "AutoButtonColor": 2532,
+      "ContentText": 3616,
+      "LineHeight": 3896,
+      "LocalizedText": 3616,
+      "MaxVisibleGraphemes": 4436,
+      "Modal": 2533,
+      "RichText": 4150,
+      "Selected": 2534,
+      "Text": 3616,
+      "TextColor3": 4408,
+      "TextDirection": 4056,
+      "TextScaled": 3593,
+      "TextSize": 4444,
+      "TextStrokeColor3": 4420,
+      "TextStrokeTransparency": 4448,
+      "TextTransparency": 4452,
+      "TextTruncate": 4456,
+      "TextWrapped": 4144,
+      "TextXAlignment": 4460,
+      "TextYAlignment": 3968
     },
     "TextLabel": {
-      "ContentText": 3568,
-      "Font": 268,
-      "LineHeight": 224,
-      "LocalizedText": 3568,
-      "MaxVisibleGraphemes": 168,
-      "RichText": 3805,
-      "Text": 3568,
-      "TextColor3": 3340,
-      "TextDirection": 6,
-      "TextScaled": 6,
-      "TextSize": 3780,
-      "TextStrokeColor3": 28,
-      "TextStrokeTransparency": 224,
-      "TextTransparency": 32,
-      "TextTruncate": 6,
-      "TextWrapped": 3808,
-      "TextXAlignment": 3300,
-      "TextYAlignment": 13
+      "ContentText": 2976,
+      "LineHeight": 3256,
+      "LocalizedText": 2976,
+      "MaxVisibleGraphemes": 3796,
+      "RichText": 3510,
+      "Text": 2976,
+      "TextColor3": 3768,
+      "TextDirection": 3416,
+      "TextScaled": 3502,
+      "TextSize": 3804,
+      "TextStrokeColor3": 3780,
+      "TextStrokeTransparency": 3808,
+      "TextTransparency": 3812,
+      "TextTruncate": 3816,
+      "TextWrapped": 3504,
+      "TextXAlignment": 3820,
+      "TextYAlignment": 3328
     },
     "Textures": {
       "Decal_Texture": 464,
@@ -658,19 +901,35 @@
     },
     "Tool": {
       "CanBeDropped": 1192,
-      "Enabled": 1192,
-      "Grip": 1144,
+      "Enabled": 1193,
+      "Grip": 1180,
       "GripForward": 1168,
       "GripPos": 1180,
       "GripRight": 1144,
       "GripUp": 1156,
       "ManualActivationOnly": 1194,
-      "RequiresHandle": 1192,
+      "RequiresHandle": 1195,
       "TextureId": 848,
       "Tooltip": 1112
     },
+    "TransformsView": {
+      "PartStride": 56,
+      "Parts": 56,
+      "PartsEnd": 64,
+      "VTableRva": 114756616
+    },
+    "TriangleMesh": {
+      "Data": 32
+    },
+    "TriangleMeshData": {},
     "Types": {
-      "AllTypes": 145663816
+      "AllTypes": 146163064
+    },
+    "UnionOperation": {
+      "AssetId": 768
+    },
+    "UserInputService": {
+      "WindowInputState": 688
     },
     "Value": {
       "Value": 168
@@ -686,7 +945,7 @@
     "VisualEngine": {
       "Dimensions": 2832,
       "FakeDataModel": 2800,
-      "Pointer": 140038664,
+      "Pointer": 140865088,
       "RenderView": 3120,
       "ViewMatrix": 432
     },
@@ -698,25 +957,39 @@
       "Part0": 168,
       "Part1": 184
     },
+    "WindowInputState": {
+      "CapsLock": 64,
+      "CurrentTextBox": 72
+    },
     "Workspace": {
       "CurrentCamera": 1192,
       "DistributedGameTime": 1224,
-      "ReadOnlyGravity": 2488,
+      "ReadOnlyGravity": 2504,
       "World": 1024
     },
     "World": {
-      "AirProperties": 576,
-      "FallenPartsDestroyHeight": 544,
-      "Gravity": 552,
-      "Primitives": 720,
-      "WorldSteps": 1864
+      "AirProperties": 568,
+      "FallenPartsDestroyHeight": 536,
+      "Gravity": 548,
+      "Primitives": 712,
+      "WorldSteps": 1864,
+      "worldStepsPerSec": 1856
     },
     "WorldRoot": {
-      "RaycastBoundDesc": 137408384,
-      "RaycastBoundFn": 128
+      "RaycastBoundDesc": 137776048,
+      "RaycastBoundFn": 144
+    },
+    "btConvexHullShape": {
+      "PointCount": 32,
+      "Points": 40,
+      "Size": 128
+    },
+    "btGImpactCompoundShape": {
+      "HullsBegin": 48,
+      "HullsEnd": 56
     }
   },
-  "Roblox Version": "version-02c37bc51a384b8f",
-  "Source SHA256": "1aac3671eb27a0e6dff1a1f928ba50dafe12d9ae364d29651c21de1b7216a5a1",
-  "Total Offsets": 535
+  "Roblox Version": "version-cec3ad5889b447cf",
+  "Source SHA256": "905d7a1a93d143c27f0760aa084c7d2dc3cf35cbfecbc8adfda251320b10b754",
+  "Total Offsets": 747
 }
