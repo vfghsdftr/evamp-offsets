@@ -4,10 +4,6 @@
       "AirDensity": 24,
       "GlobalWind": 60
     },
-    "Alloc": {
-      "Free": 24704480,
-      "Malloc": 7969344
-    },
     "AnimationTrack": {
       "Animation": 168,
       "Animator": 256,
@@ -29,22 +25,6 @@
     },
     "Attachment": {
       "Position": 180
-    },
-    "Attribute": {
-      "Key": 0,
-      "KeyString": 8,
-      "Size": 88,
-      "Type": 8,
-      "TypeIdRva": 148217904,
-      "TypeIdRvaNew": 145363664,
-      "Value": 24
-    },
-    "AttributeContainer": {
-      "AttributeList": 8
-    },
-    "AttributesMap": {
-      "Attributes": 8,
-      "Length": 16
     },
     "BasePart": {
       "CastShadow": 296,
@@ -135,8 +115,7 @@
     },
     "Creator": {
       "MapEnd": 138275840,
-      "MapStart": 138275832,
-      "isCreatable": 16
+      "MapStart": 138275832
     },
     "DataModel": {
       "CreatorId": 376,
@@ -283,29 +262,10 @@
       "FindPartOnRayWithIgnoreList": 14745184,
       "FindPartOnRayWithWhitelist": 14745328,
       "FireServer": 12419712,
-      "GlobalCollectGarbage": 69583584,
-      "GlobalDelay": 69585728,
-      "GlobalElapsedTime": 69587824,
-      "GlobalGetFenv": 69601776,
-      "GlobalLoadstring": 69587952,
-      "GlobalPluginManager": 69589616,
-      "GlobalPrint": 69590992,
-      "GlobalRequire": 69591264,
-      "GlobalSetFenv": 69602080,
-      "GlobalSettings": 69592560,
-      "GlobalSpawn": 69593824,
-      "GlobalStats": 69595936,
-      "GlobalTick": 69597264,
-      "GlobalTime": 69597392,
-      "GlobalUserSettings": 69597904,
-      "GlobalVersion": 69599056,
-      "GlobalWait": 69599280,
-      "GlobalWarn": 69599712,
       "Print": 30600880,
       "PrintIdentity": 69591024,
       "RaisePropertyChanged": 15473462,
       "Raycast": 14709936,
-      "SetFFlag": 77123120,
       "SetParent": 14515075,
       "SetParentInternal": 30895888,
       "Shapecast": 14716528
@@ -402,26 +362,23 @@
       "Walkspeed": 460,
       "WalkspeedCheck": 932
     },
+    "ICreator": {
+      "Create": 0
+    },
     "InputObject": {
       "MousePosition": 88,
       "VTableRva": 116611568
     },
     "Instance": {
-      "AttributeContainer": 56,
-      "AttributeToNext": 88,
-      "AttributeToValue": 24,
       "ChildrenEnd": 8,
       "ChildrenStart": 120,
       "ChildrenStride": 16,
       "ClassBase": 432,
       "ClassDescriptor": 24,
       "ClassName": 8,
-      "ComponentMap": 56,
-      "Creator_isCreatable": 16,
       "Name": 8,
       "NameContainer": 112,
       "Parent": 104,
-      "PushInstance": 68657216,
       "This": 8,
       "VTableRva": 116025080
     },
@@ -506,53 +463,6 @@
       "MeshId": 16,
       "Next": 0
     },
-    "Lua": {
-      "BytecodeVerificationTableA": 138275248,
-      "DummyNode": 105909832,
-      "GetGlobalState": 68755904,
-      "KTable": 136819216,
-      "LuaVM_Load": 68717296,
-      "NilObject": 105924360,
-      "OpCodeTable": 116915264,
-      "TypeNames": 106062656,
-      "dummynode": 105909832
-    },
-    "LuaB": {
-      "LuaBAssert": 40375472,
-      "LuaBError": 40345488,
-      "LuaBGcinfo": 40369648,
-      "LuaBGetfenv": 40351040,
-      "LuaBGetmetatable": 40348112,
-      "LuaBNewproxy": 40379344,
-      "LuaBNext": 40372736,
-      "LuaBPrint": 40344368,
-      "LuaBRawequal": 40351792,
-      "LuaBRawget": 40352064,
-      "LuaBRawlen": 40369488,
-      "LuaBRawset": 40355760,
-      "LuaBSelect": 40375648,
-      "LuaBSetfenv": 40351232,
-      "LuaBSetmetatable": 40348512,
-      "LuaBTonumber": 40344576,
-      "LuaBTostring": 40379248,
-      "LuaBType": 40369680,
-      "LuaBTypeof": 40371216
-    },
-    "LuaCoroutine": {
-      "Close": 93339408,
-      "Create": 93336960,
-      "IsYieldable": 93339264,
-      "Running": 93339152,
-      "Status": 93330192,
-      "Wrap": 93338432,
-      "Yield": 93339056
-    },
-    "LuauGlobal": {
-      "dummynode": 105909832,
-      "nilobject": 105924360,
-      "page_next_all": 8,
-      "page_next_free": 24
-    },
     "MaterialColors": {
       "Asphalt": 48,
       "Basalt": 39,
@@ -603,19 +513,8 @@
     "Misc": {
       "Adornee": 224,
       "AnimationId": 176,
-      "BooleanType": 115382648,
-      "EnableLoadModule": 141155272,
-      "FLogHookPtr": 145311968,
-      "LockViolationInstanceCrash": 141858888,
-      "LockViolationScriptCrash": 141154776,
       "StringLength": 16,
-      "TLS_IDENTITYSTRUCT": 137735480,
-      "Value": 168,
-      "vftFuncScriptSlot0": 115177632,
-      "vftFuncScriptSlot1": 115177984,
-      "vftMessageScriptSlot": 115177488,
-      "vftNetworkStream": 114209496,
-      "vftWaitScriptSlot": 115177056
+      "Value": 168
     },
     "Model": {
       "PrimaryPart": 584,
@@ -732,37 +631,13 @@
       "ObjectText": 192,
       "RequiresLineOfSight": 295
     },
-    "RakNet": {
-      "RakPeerVirtualTable": 114311112
-    },
     "Raycast": {
       "RaycastBoundDesc": 137776048,
       "RaycastBoundFn": 144
     },
-    "RbxTransport": {
-      "AppRtti": 122021856,
-      "AppVTable": 114256952,
-      "ClientChannelConfig": 61364864,
-      "ClientDestructor": 61362624,
-      "ClientReceive": 61364384,
-      "ClientRtti": 122660808,
-      "ClientSend": 61362912,
-      "ClientVTable": 114759392,
-      "FailureFallbackToRbxTransport": 141177864,
-      "UseRbxTransportClient": 141119024
-    },
     "Reflection": {
-      "ClassDescCreatable": 16,
-      "ClassDescFlags": 444,
       "CreatorTable": 138275832,
-      "EntryValue": 8,
-      "KTable": 136819216,
-      "NameRegistry": 136819216,
-      "NameTable": 80,
-      "TableEmpty": 32,
-      "TableEnd": 8,
-      "TableStart": 0,
-      "TableStride": 16
+      "NameRegistry": 136819216
     },
     "ReflectionType": {
       "AdReward": 96,
@@ -894,14 +769,8 @@
       "Hash": 400
     },
     "ScriptContext": {
-      "LuaStateAlt": 1616,
       "RequireBypass": 184,
-      "ToResume": 2288,
-      "VTableRva": 116995888,
-      "VmEncryptedLuaState": 432,
-      "VmWrapper": 416,
-      "VmWrapper2": 3568,
-      "VmWrapperBig": 416
+      "VTableRva": 116995888
     },
     "Seat": {
       "Occupant": 520
@@ -975,15 +844,6 @@
       "NormalMap": 328,
       "RoughnessMap": 376
     },
-    "Task": {
-      "TaskCancel": 70399152,
-      "TaskDefer": 70395696,
-      "TaskDelay": 70397872,
-      "TaskDesynchronize": 70392560,
-      "TaskSpawn": 70396944,
-      "TaskSynchronize": 70391424,
-      "TaskWait": 70398640
-    },
     "TaskScheduler": {
       "JobEnd": 208,
       "JobName": 24,
@@ -997,6 +857,7 @@
       "TeamColor": 168
     },
     "TechniqueArray": {
+      "BeginOffset": 0,
       "EndOffset": 8
     },
     "Terrain": {
@@ -1146,6 +1007,6 @@
     }
   },
   "Roblox Version": "version-7a0c6d10fcb34a2c",
-  "Source SHA256": "67e608b35918984711376a5a149aa23995b32565afb95898cda90ea4a1f70e71",
-  "Total Offsets": 884
+  "Source SHA256": "399ecdb809f720504e7844f353730fd5590bee942f0019e351050d5ee945774b",
+  "Total Offsets": 765
 }
